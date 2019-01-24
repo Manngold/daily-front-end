@@ -1,0 +1,73 @@
+html,
+body {
+  margin: 0;
+}
+/* header */
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.icon__wrapper {
+  margin-right: 20px;
+}
+ul > li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+/* body */
+main {
+  display: flex;
+  justify-content: center;
+}
+
+/* logo */
+.img__wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.img__wrapper > img {
+  height: 250px;
+  width: 450px;
+  margin: 0;
+}
+/* input */
+.input__wrapper {
+  display: flex;
+  justify-content: center;
+}
+.input__wrapper > input {
+  height: 42px;
+  width: 560px;
+  outline: none;
+  border: none;
+  border-radius: 24px;
+  background-color: #f1f2f6;
+  font-size: 17px;
+  padding-left: 20px;
+}
+/* shortcut */
+.shortcut__wrapper {
+  display: inline-grid;
+  grid-template-columns: repeat(5, 120px);
+  margin-top: 60px;
+  column-gap: 50px;
+}
+.shortcut__wrapper > a {
+  text-decoration: none;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon > img {
+  height: 40px;
+  weight: 40px;
+  border-radius: 30px;
+  margin-bottom: 11px;
+}
