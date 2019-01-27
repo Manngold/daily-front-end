@@ -1,0 +1,26 @@
+html,
+body {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e272e;
+}
+.menu__button {
+  position: sticky;
+  color: #d2dae2;
+  font-size: 50px;
+  margin: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px 10px 0px 10px;
+}
+
+.menu__button:hover {
+  background-color: #3c40c6;
+  transition: 0.5s;
+}
