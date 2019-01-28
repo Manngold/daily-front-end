@@ -18,6 +18,21 @@ a {
   padding: 15px;
 }
 
+a::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: tomato;
+  width: 0;
+  left: 50%;
+  top: 2px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
 a::after {
   content: "";
   position: absolute;
@@ -38,5 +53,9 @@ a:hover {
 }
 
 a:hover::after {
+  width: 100%;
+}
+
+a:hover::before {
   width: 100%;
 }
