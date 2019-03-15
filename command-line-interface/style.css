@@ -1,0 +1,26 @@
+body {
+  background-color: #455a64;
+}
+
+.input__wrapper {
+  color: #dfe6e9;
+}
+
+.input__wrapper > input {
+  background-color: #455a64;
+  border: none;
+  width: 5px;
+  color: #dfe6e9;
+}
+
+#cursor {
+  color: #dfe6e9;
+  font-weight: 700;
+  animation: 0.9s blink step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    color: #455a64;
+  }
+}
